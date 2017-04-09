@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link href="../css/font-awesome.css" type="text/css" rel="stylesheet">
+		<link href="../css/bootstrap.css" type="text/css" rel="stylesheet">
+		<title>Contact Me|-|OEs Web</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="../index.html">LEXIS SITE</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="../index.html">Home</a></li><!--For Home Tab-->
+					<li><a href="gallery.htm">Gallery</a></li><!--For Gallery Tab-->
+					<li class="active"><a href="contact.htm">Contact Me</a></li><!--For Contact me tab-->
+					<li><a href="about_me.htm">About Me</a></li><!--For About me Tab-->
+				</ul>
+			</div>
+		</nav>
+		<!--Ending of Web page menu code-->
+
+		<!-- Beginning of Contact Me Form-->
+		<div class="well">
+			<div class="container">
+
+				<legend><h2>Contact Me Form</h2></legend>
+				<form action=".php" method="POST">
+					<label>First Name:*</label><Br/>
+					<input class="form-control" type="text" name="f_name" maxlength="16" size="80" required><Br/><Br/>
+					
+					<label>Middle Name:*</label><Br/>
+					<input class="form-control" type="text" name="m_name" maxlength="16" size="80"><Br/><Br/>
+
+					<label>Last Name:*</label><Br/>
+					<input class="form-control" type="text" name="l_name" maxlength="16" size="80" required><Br/><Br/>
+
+					<label>Email Address:*</label><Br/>
+					<input class="form-control" type="email" name="email" maxlength="40" size="80" required><Br/><Br/>
+
+					<label>Phone Number:*</label><Br/>
+					<input class="form-control" type="tel" name="p_contact" maxlength="10" size="80" required><Br/><Br/>
+
+					<label>Comments:</label><Br/>
+					<textarea class="form-control" rows="5" name="comment"></textarea><Br/><Br/>
+
+					<input type="submit" value="Submit" size="40" class="btn btn-primary btn-block">
+				</form>
+			</div>
+		</div>
+		<!-- Ending of Contact Me Form-->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/npm.js"></script>
+	</body>
+</html>
